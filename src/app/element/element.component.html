@@ -1,0 +1,19 @@
+<div class="container">
+
+    <br />
+    <h2>Element position: {{PeriodicData['position']}}</h2>
+
+    <br />
+    <h3>
+        <li>Name: {{PeriodicData['name']}}</li>
+        <li>Weight: {{PeriodicData['weight']}}</li>
+        <li>Symbol: {{PeriodicData['symbol']}}</li>
+    </h3>
+
+    <p>Hint: Perhaps you could use the position variable in element.component.ts to find the remaining relevant data (name, weight, symbol) to display from the periodicElements.json file</p>
+
+    <br/><br/>
+    <button mat-raised-button (click)="goBack()">
+        Go back
+    </button>
+</div>
